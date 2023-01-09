@@ -15,6 +15,7 @@ This document was made to help organization and working group to provide more ef
 ```
 
 ### Deep inside:
+
 ```
 Type: core, feat, fix, docs, style, refactor, test, chore, git, merge, composer
 Scope: controllers, models, repositories
