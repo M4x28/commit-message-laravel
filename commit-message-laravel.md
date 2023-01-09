@@ -14,6 +14,8 @@ This document was made to help organization and working group to provide more ef
 [optional footer(s)]
 ```
 
+# Deep inside:
+```
 # Type: core, feat, fix, docs, style, refactor, test, chore, git, merge, composer
 # Scope: controllers, models, repositories
 # Subject: (This commit) <verb: 'add, fix, delete, modify'> subject 
@@ -21,7 +23,7 @@ This document was made to help organization and working group to provide more ef
 # <body>
  
 
-# <footer> 
+# [footer]
 # Type should be one of the following:
 # * core (improve core class)
 # * feat (new feature)
@@ -38,13 +40,11 @@ This document was made to help organization and working group to provide more ef
 # Subject should use impertivite tone and say what you did.
 # The body should go into detail about changes made.
 # The footer should contain issue references or actions.
- 
-  
-  
-# ---------------------------------------------------------------------------------
-# Samples
-# ---------------------------------------------------------------------------------
+ ```
 
+# Example
+
+```
 ## ---------------------------------------------------------------------------------
 #feat($browser): onUrlChange event (popstate/hashchange/polling)
 #
@@ -128,3 +128,4 @@ This document was made to help organization and working group to provide more ef
 #The removed `inject` wasn't generaly useful for directives so there should be no code using it.
 ## ---------------------------------------------------------------------------------
 #
+```
