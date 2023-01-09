@@ -14,35 +14,40 @@ This document was made to help organization and working group to provide more ef
 [optional footer(s)]
 ```
 
-# Deep inside:
+### Deep inside:
 ```
-# Type: core, feat, fix, docs, style, refactor, test, chore, git, merge, composer
-# Scope: controllers, models, repositories
-# Subject: (This commit) <verb: 'add, fix, delete, modify'> subject 
+Type: core, feat, fix, docs, style, refactor, test, chore, git, merge, composer
+Scope: controllers, models, repositories
+Subject: (This commit) <verb: 'add, fix, delete, modify'> subject 
 
-# <body>
+[body]
  
 
-# [footer]
-# Type should be one of the following:
-# * core (improve core class)
-# * feat (new feature)
-# * fix (bug fix)
-# * docs (changes to documentation)
-# * style (formatting, missing semi colons, etc; no code change)
-# * refactor (refactoring code)
-# * test (adding missing tests, refactoring tests; no production code change)
-# * git (changes about git, mainly .gitignore updates)
+[footer]
+Type should be one of the following:
+* core (improve core class)
+* feat (new feature)
+* fix (bug fix)
+* docs (changes to documentation)
+* style (formatting, missing semi colons, etc; no code change)
+* refactor (refactoring code)
+* test (adding missing tests, refactoring tests; no production code change)
+* git (changes about git, mainly .gitignore updates)
   
-# Scope is just the scope of the change. Shold be one of the following:
-# * Controller
-# * Model
-# Subject should use impertivite tone and say what you did.
-# The body should go into detail about changes made.
-# The footer should contain issue references or actions.
+Scope is just the scope of the change. Shold be one of the following:
+* Controller
+* Model
+* View
+* Migration
+
+Subject should use impertivite tone and say what you did.
+
+The body should go into detail about changes made.
+
+The footer should contain issue references or actions.
  ```
 
-# Example
+## Example
 
 ```
 ## ---------------------------------------------------------------------------------
