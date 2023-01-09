@@ -71,7 +71,7 @@ The footer should contain issue references or actions.
 #Closes #392
 #Breaks foo.bar api, foo.baz should be used instead
 ## ---------------------------------------------------------------------------------
-#
+
 ## ---------------------------------------------------------------------------------
 #feat(directive): ng:disabled, ng:checked, ng:multiple, ng:readonly, ng:selected
 #
@@ -80,7 +80,7 @@ The footer should contain issue references or actions.
 #
 #Closes #351
 ## ---------------------------------------------------------------------------------
-#
+
 ## ---------------------------------------------------------------------------------
 #style($location): add couple of missing semi colons
 #
@@ -92,7 +92,7 @@ The footer should contain issue references or actions.
 #- start periodic checking
 #- missing brace
 ## ---------------------------------------------------------------------------------
-#
+
 ## ---------------------------------------------------------------------------------
 #feat($compile): simplify isolate scope bindings
 #
@@ -132,5 +132,4 @@ The footer should contain issue references or actions.
 #
 #The removed `inject` wasn't generaly useful for directives so there should be no code using it.
 ## ---------------------------------------------------------------------------------
-#
 ```
